@@ -8,11 +8,11 @@ spec:
   replicas: 2
   selector:
     matchLabels:
-      app: product-zero-spring-petclinic
+      app: product-zero-spring--petclinic
   template:
     metadata:
       labels:
-        app: product-zero-spring-petclinic
+        app: product-zero-spring--petclinic
     spec:
       containers:
       - name: product-zero-spring-petclinic
